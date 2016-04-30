@@ -15,6 +15,11 @@
 		173624381CD4C93F003A6325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173624361CD4C93F003A6325 /* LaunchScreen.storyboard */; };
 		173624431CD4C93F003A6325 /* SqliteDBDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 173624421CD4C93F003A6325 /* SqliteDBDemoTests.m */; };
 		1736244E1CD4C93F003A6325 /* SqliteDBDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1736244D1CD4C93F003A6325 /* SqliteDBDemoUITests.m */; };
+		1736245C1CD5275E003A6325 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1736245B1CD5275E003A6325 /* libsqlite3.0.tbd */; };
+		1736245E1CD52768003A6325 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1736245D1CD52768003A6325 /* libsqlite3.tbd */; };
+		173624601CD5289D003A6325 /* EmployeeInfo.db in Resources */ = {isa = PBXBuildFile; fileRef = 1736245F1CD5289D003A6325 /* EmployeeInfo.db */; };
+		173624611CD5289D003A6325 /* EmployeeInfo.db in Resources */ = {isa = PBXBuildFile; fileRef = 1736245F1CD5289D003A6325 /* EmployeeInfo.db */; };
+		173624621CD5289D003A6325 /* EmployeeInfo.db in Resources */ = {isa = PBXBuildFile; fileRef = 1736245F1CD5289D003A6325 /* EmployeeInfo.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,9 @@
 		173624491CD4C93F003A6325 /* SqliteDBDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteDBDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1736244D1CD4C93F003A6325 /* SqliteDBDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteDBDemoUITests.m; sourceTree = "<group>"; };
 		1736244F1CD4C93F003A6325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1736245B1CD5275E003A6325 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		1736245D1CD52768003A6325 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1736245F1CD5289D003A6325 /* EmployeeInfo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = EmployeeInfo.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1736245E1CD52768003A6325 /* libsqlite3.tbd in Frameworks */,
+				1736245C1CD5275E003A6325 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,9 @@
 		1736241C1CD4C93F003A6325 = {
 			isa = PBXGroup;
 			children = (
+				1736245F1CD5289D003A6325 /* EmployeeInfo.db */,
+				1736245D1CD52768003A6325 /* libsqlite3.tbd */,
+				1736245B1CD5275E003A6325 /* libsqlite3.0.tbd */,
 				173624271CD4C93F003A6325 /* SqliteDBDemo */,
 				173624411CD4C93F003A6325 /* SqliteDBDemoTests */,
 				1736244C1CD4C93F003A6325 /* SqliteDBDemoUITests */,
@@ -246,6 +259,7 @@
 				173624381CD4C93F003A6325 /* LaunchScreen.storyboard in Resources */,
 				173624351CD4C93F003A6325 /* Assets.xcassets in Resources */,
 				173624331CD4C93F003A6325 /* Main.storyboard in Resources */,
+				173624601CD5289D003A6325 /* EmployeeInfo.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173624611CD5289D003A6325 /* EmployeeInfo.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173624621CD5289D003A6325 /* EmployeeInfo.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
