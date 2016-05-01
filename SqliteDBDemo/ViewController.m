@@ -30,7 +30,7 @@
     
         // Build the path to the database file
     _databasePath = [[NSString alloc] initWithString:[docDir stringByAppendingPathComponent:@"EmployeeInfo.db"]];
-    
+    NSLog(@"database path = %@",_databasePath);
     // 2.  Creates an NSFileManager instance and subsequently uses it to detect if the database file already exists.
     
         NSFileManager *filemgr = [NSFileManager defaultManager];

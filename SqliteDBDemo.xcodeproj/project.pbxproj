@@ -20,6 +20,8 @@
 		173624601CD5289D003A6325 /* EmployeeInfo.db in Resources */ = {isa = PBXBuildFile; fileRef = 1736245F1CD5289D003A6325 /* EmployeeInfo.db */; };
 		173624611CD5289D003A6325 /* EmployeeInfo.db in Resources */ = {isa = PBXBuildFile; fileRef = 1736245F1CD5289D003A6325 /* EmployeeInfo.db */; };
 		173624621CD5289D003A6325 /* EmployeeInfo.db in Resources */ = {isa = PBXBuildFile; fileRef = 1736245F1CD5289D003A6325 /* EmployeeInfo.db */; };
+		1740AF101CD609BD00A735C5 /* GetAllDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1740AF0F1CD609BD00A735C5 /* GetAllDataViewController.m */; };
+		1740AF111CD609BD00A735C5 /* GetAllDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1740AF0F1CD609BD00A735C5 /* GetAllDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		1736245B1CD5275E003A6325 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		1736245D1CD52768003A6325 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		1736245F1CD5289D003A6325 /* EmployeeInfo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = EmployeeInfo.db; sourceTree = "<group>"; };
+		1740AF0E1CD609BD00A735C5 /* GetAllDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAllDataViewController.h; sourceTree = "<group>"; };
+		1740AF0F1CD609BD00A735C5 /* GetAllDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAllDataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				1736242C1CD4C93F003A6325 /* AppDelegate.m */,
 				1736242E1CD4C93F003A6325 /* ViewController.h */,
 				1736242F1CD4C93F003A6325 /* ViewController.m */,
+				1740AF0E1CD609BD00A735C5 /* GetAllDataViewController.h */,
+				1740AF0F1CD609BD00A735C5 /* GetAllDataViewController.m */,
 				173624311CD4C93F003A6325 /* Main.storyboard */,
 				173624341CD4C93F003A6325 /* Assets.xcassets */,
 				173624361CD4C93F003A6325 /* LaunchScreen.storyboard */,
@@ -289,6 +295,7 @@
 				173624301CD4C93F003A6325 /* ViewController.m in Sources */,
 				1736242D1CD4C93F003A6325 /* AppDelegate.m in Sources */,
 				1736242A1CD4C93F003A6325 /* main.m in Sources */,
+				1740AF101CD609BD00A735C5 /* GetAllDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				173624431CD4C93F003A6325 /* SqliteDBDemoTests.m in Sources */,
+				1740AF111CD609BD00A735C5 /* GetAllDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +522,7 @@
 				173624541CD4C93F003A6325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		173624551CD4C93F003A6325 /* Build configuration list for PBXNativeTarget "SqliteDBDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				173624571CD4C93F003A6325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		173624581CD4C93F003A6325 /* Build configuration list for PBXNativeTarget "SqliteDBDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				1736245A1CD4C93F003A6325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
